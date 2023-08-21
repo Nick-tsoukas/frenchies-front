@@ -5,6 +5,9 @@ ssr:false,
   modules: [
     '@nuxt/content'
   ],
+  content: {
+    // https://content.nuxtjs.org/api/configuration
+  },
   vite: {
     server: {
           fs: {
