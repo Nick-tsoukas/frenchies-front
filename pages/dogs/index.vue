@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Dog home page</h1>
-    <!-- <ContentDoc /> -->
+    <h1>all dogs</h1>
   </div>
 </template>

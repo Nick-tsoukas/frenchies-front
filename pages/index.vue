@@ -1,13 +1,3 @@
-<script setup lang="ts">
-useHead({
-  script: [
-    { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
-  ],
-});
-</script>
 <template>
-  <div>
-    home test h1
-    <ContentDoc />
-  </div>
+  <div>home test h1</div>
 </template>
