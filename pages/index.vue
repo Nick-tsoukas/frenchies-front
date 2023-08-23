@@ -5,6 +5,7 @@ useHead({
 </script>
 <template>
   <div>
+    home test h1
     <ContentDoc />
   </div>
 </template>
