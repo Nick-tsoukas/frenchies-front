@@ -2,9 +2,15 @@
 
 export default defineNuxtConfig({
   ssr:false,
+  nitro: {
+    preset: 'netlify'
+  },
   modules: [
     '@nuxt/content'
   ],
+  content: {
+    // https://content.nuxtjs.org/api/configuration
+  },
   vite: {
     server: {
           fs: {
