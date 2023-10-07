@@ -14,18 +14,30 @@
 -->
 <template>
   <div class="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
-    <form name="contact" netlify>
+    <form name="contact" method="POST" data-netlify="true">
       <p>
-        <label>Name <input type="text" name="name" /></label>
+        <label>Your Name: <input type="text" name="name" /></label>
       </p>
       <p>
-        <label>Email <input type="email" name="email" /></label>
+        <label>Your Email: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label
+          >Your Role:
+          <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+          </select></label
+        >
+      </p>
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
       </p>
       <p>
         <button type="submit">Send</button>
       </p>
     </form>
-    <div class="mx-auto max-w-2xl text-center">
+    <!-- <div class="mx-auto max-w-2xl text-center">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
         Contact Us
       </h2>
@@ -141,7 +153,7 @@
           Send Message
         </button>
       </div>
-    </form>
+    </form> -->
   </div>
 </template>
 
