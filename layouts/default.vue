@@ -118,7 +118,7 @@ function toggle() {
           @click="toggle"
           class="ml-auto"
           :class="isOpen ? 'block' : 'hidden'"
-          src="/menu.svg"
+          src="/Menu.svg"
           width="40"
           height="40"
         />
