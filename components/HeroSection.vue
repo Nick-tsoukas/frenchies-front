@@ -2,7 +2,7 @@
   <section class="flex items-center justify-center h-auto w-full">
     <!-- <div class="w-[100vw] h-full background"></div> -->
 
-    <img class="h-[350px] md:h-auto" src="hero.jpg" alt="" />
+    <NuxtImg class="h-[350px] md:h-auto" src="/hero.jpg" alt="" />
     <section class="absolute">
       <p class="text-center text-white text-3xl header_font">
         Discover Rare Frenchie Bulldogs

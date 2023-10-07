@@ -93,7 +93,7 @@ function toggle() {
   <div class="w-full py-2 z-10">
     <div class="flex items-center bg-[#303036] lg:container lg:mx-auto">
       <NuxtLink to="/" class="z-40 flex items-center gap-6">
-        <img src="@/logo.svg" alt="" />
+        <img src="/logo.svg" alt="" />
       </NuxtLink>
       <div class="w-full grow">
         <NuxtLink to="/">

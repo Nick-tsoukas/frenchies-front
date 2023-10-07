@@ -13,10 +13,7 @@ defineProps({
 <template>
   <div class="border-1 border black">
     <div>
-      <img
-        src="https://images.unsplash.com/photo-1521907236370-15adf2297445?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmFyZSUyMGZyZW5jaGllfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
-        alt=""
-      />
+      <img src="/hero.jpg" alt="" />
     </div>
     <div class="px-4 py-2">
       <div class="flex gap-2 items-center">
