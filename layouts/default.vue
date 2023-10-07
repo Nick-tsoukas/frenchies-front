@@ -7,7 +7,7 @@ const navigation = {
   main: [
     { name: "About", href: "/#about" },
     { name: "Dogs", href: "/#dogs" },
-    { name: "Contact", href: "contact" },
+    { name: "Contact", href: "/contact" },
   ],
   social: [
     {
@@ -145,7 +145,7 @@ function toggle() {
           </a>
         </div>
         <div class="pl-6 lg:pl-0">
-          <NuxtLink to="/contact" class="flex" @click="toggle">
+          <NuxtLink to="/" class="flex" @click="toggle">
             <p class="">Contact</p>
           </NuxtLink>
         </div>
