@@ -105,8 +105,8 @@ function toggle() {
           </p>
         </NuxtLink>
       </div>
-      <!-- <div class="z-40 pr-8">
-        <nuxt-img
+      <div class="z-40 pr-8">
+        <NuxtImg
           @click="toggle"
           class="ml-auto"
           :class="isOpen ? 'hidden' : 'block'"
@@ -114,7 +114,7 @@ function toggle() {
           width="40"
           height="40"
         />
-        <nuxt-img
+        <NuxtImg
           @click="toggle"
           class="ml-auto"
           :class="isOpen ? 'block' : 'hidden'"
@@ -122,7 +122,7 @@ function toggle() {
           width="40"
           height="40"
         />
-      </div> -->
+      </div>
     </div>
     <!-- menu -->
     <div
