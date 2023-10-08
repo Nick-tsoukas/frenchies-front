@@ -10,7 +10,7 @@ defineProps({
   },
   image: {
     type: String,
-    default: "/dog1.jpg",
+    default: "/dog1.jpeg",
   },
 });
 </script>

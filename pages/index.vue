@@ -51,16 +51,19 @@ const images = ref(["/dog1.jpeg", "/dog2.jpeg", "/dog3.jpeg"]);
         <section id="dogs" class="flex flex-col gap-6">
           <DogCard
             dogName="bruce"
+            image="/dog1.jpeg"
             desicription="Blue Sable French Bulldog: A stunning blend of blue and fawn hues, a
             rare and captivating choice"
           />
           <DogCard
             dogName="rabbit"
+            image="/dog2.jpeg"
             desicription="Blue Sable French Bulldog: A stunning blend of blue and fawn hues, a
             rare and captivating choice"
           />
           <DogCard
             dogName="bruce"
+            image="/dog3.jpeg"
             desicription="Blue Sable French Bulldog: A stunning blend of blue and fawn hues, a
             rare and captivating choice"
           />
