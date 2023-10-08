@@ -21,7 +21,7 @@ const images = ref(["/dog1.jpeg", "/dog2.jpeg", "/dog3.jpeg"]);
           <li class="flex gap-4 h-[120px] my-4 text-left">
             Known for their striking coat patterns, each Merle Frenchie is a
             unique masterpiece.
-            <img src="/dog2.jpeg" class="h-[100px] w-[150px]" alt="" />
+            <img src="/dog4.jpeg" class="h-[100px] w-[150px]" alt="" />
           </li>
           <p class="text-center font-bold my-4">Merle French Bulldog</p>
           <li class="flex gap-4 h-[120px] my-4 text-left">
@@ -57,7 +57,7 @@ const images = ref(["/dog1.jpeg", "/dog2.jpeg", "/dog3.jpeg"]);
           />
           <DogCard
             dogName="rabbit"
-            image="/dog2.jpeg"
+            image="/dog4.jpeg"
             desicription="Blue Sable French Bulldog: A stunning blend of blue and fawn hues, a
             rare and captivating choice"
           />
