@@ -1,5 +1,5 @@
 <script setup>
-const images = ref(["/hero.jpg", "/hero.jpg", "/hero.jpg"]);
+const images = ref(["/dog1.jpeg", "/dog2.jpeg", "/dog3.jpeg"]);
 </script>
 <template>
   <div>
@@ -12,20 +12,20 @@ const images = ref(["/hero.jpg", "/hero.jpg", "/hero.jpg"]);
         <ul class="my-4">
           <p class="text-center font-bold my-4">Merle French Bulldog</p>
 
-          <li class="flex gap-4 max-h-[120px] my-4 text-center">
-            <img src="/hero.jpg" class="h-[100px] w-[100px]" alt="" />
+          <li class="flex gap-4 max-h-[120px] my-4 text-left">
+            <img src="/dog1.jpeg" class="h-[100px] w-[150px]" alt="" />
             A stunning blend of blue and fawn hues, a rare and captivating
             choice
           </li>
           <p class="text-center font-bold my-4">Merle French Bulldog</p>
-          <li class="flex gap-4 h-[120px] my-4 text-center">
+          <li class="flex gap-4 h-[120px] my-4 text-left">
             Known for their striking coat patterns, each Merle Frenchie is a
             unique masterpiece.
-            <img src="/hero.jpg" class="h-[100px] w-[100px]" alt="" />
+            <img src="/dog2.jpeg" class="h-[100px] w-[150px]" alt="" />
           </li>
           <p class="text-center font-bold my-4">Merle French Bulldog</p>
-          <li class="flex gap-4 h-[120px] my-4 text-center">
-            <img src="/hero.jpg" class="h-[100px] w-[100px]" alt="" />
+          <li class="flex gap-4 h-[120px] my-4 text-left">
+            <img src="/dog3.jpeg" class="h-[100px] w-[150px]" alt="" />
             A rare gem with a chocolate base and captivating brindle markings.
           </li>
         </ul>

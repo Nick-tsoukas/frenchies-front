@@ -5,7 +5,7 @@ const dogs = ref({
     gender: "Male",
     description:
       "Meet Bruce, the epitome of rare Frenchie charm. With his mesmerizing Blue Sable coat and soulful eyes, he exudes elegance and uniqueness. Playful, affectionate, and incredibly intelligent, he steals hearts with his endearing personality. This one-of-a-kind Frenchie, with his delightful quirks and unwavering loyalty, will undoubtedly become the center of your world.",
-    images: ["hero.jpg", "dogheroalt.png", "hero.jpg"],
+    images: ["dog1.jpeg", "dog2.jpeg", "dog3.jpeg"],
   },
   rabbit: {
     name: "rabbit",
@@ -15,7 +15,7 @@ const dogs = ref({
     images: ["hero.jpg", "hero.jpg", "hero.jpg"],
   },
 });
-const images = ref(["hero.jpg", "hero.jpg", "hero.jpg"]);
+const images = ref(["dog1.jpeg", "dog2.jpeg", "dog3.jpeg"]);
 </script>
 <template>
   <div>

@@ -8,12 +8,17 @@ defineProps({
     type: String,
     default: "Male",
   },
+  image: {
+    type: String,
+    default: "/dog1.jpg",
+  },
+  }
 });
 </script>
 <template>
   <div class="border-1 border black">
     <div>
-      <img src="/hero.jpg" alt="" />
+      <img :src="image" alt="" />
     </div>
     <div class="px-4 py-2">
       <div class="flex gap-2 items-center">
