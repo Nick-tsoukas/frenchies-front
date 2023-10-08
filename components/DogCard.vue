@@ -12,7 +12,6 @@ defineProps({
     type: String,
     default: "/dog1.jpg",
   },
-  }
 });
 </script>
 <template>
