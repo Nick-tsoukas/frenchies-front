@@ -1,15 +1,15 @@
 <template>
-  <section class="flex items-center justify-center h-auto w-full">
+  <section class="flex justify-center h-auto w-full">
     <!-- <div class="w-[100vw] h-full background"></div> -->
 
     <NuxtImg class="h-[350px] md:h-auto" src="/alldogs.jpeg" alt="" />
-    <section class="absolute">
-      <p class="text-center text-white text-3xl header_font">
-        Discover Rare Frenchie Bulldogs
-      </p>
-      <p class="text-center text-white font-light mt-8">
-        Where Elegance Meets Rarity
-      </p>
+    <section class="absolute top-0 w-screen h-full">
+      <div class="bg-black/[.3] p-6 w-screen absolute bottom-0 left-0">
+        <p class="text-white text-3xl header_font">
+          Discover Rare Frenchie Bulldogs
+        </p>
+        <p class="text-white font-light mt-8">Where Elegance Meets Rarity</p>
+      </div>
     </section>
   </section>
 </template>
