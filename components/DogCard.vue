@@ -16,8 +16,8 @@ defineProps({
 </script>
 <template>
   <div class="border-1 border black">
-    <div>
-      <img :src="image" alt="" />
+    <div class="">
+      <img class="object-cover h-[200px] w-full" :src="image" alt="" />
     </div>
     <div class="px-4 py-2">
       <div class="flex gap-2 items-center">
